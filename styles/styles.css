@@ -13,7 +13,13 @@
 }
 
 .btn-prim-2{
-    font-weight: bold;
+    background-color: #0D1321;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 21px 24px;
+    border-radius: 8px;
+    margin: 32px;
 }
 
 /* Nav styles */ 
@@ -44,4 +50,35 @@ nav ul{
 nav ul a{
 text-decoration: none;
 font-size: 20;
+}
+
+/* Banner styles */
+
+.banner-bg{
+background-image: url(../images/Hero-bg.png);
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat;
+/* padding: 49px 0px; */
+}
+
+.banner{
+    text-align: center;
+    padding: 13px 231px 58px;
+}
+
+.banner-titles{
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.banner_description{
+    font-size: 16px;
+    margin: 0px 80px;
+}
+
+.banner-img{
+    width: 240px;
+    height: 240px;
 }
